@@ -62,6 +62,15 @@ int main() {
 
           std::cout << "Accepted new client connection #" << clientId << std::endl;
 
+          db_host = ;
+          db_port = ;
+          db_dbname = ;
+          db_user = ;
+          db_password = ;
+
+
+
+
           // Создание соединения с сервером PostgreSQL
           PGconn *pgConnection = PQconnectdb("host=localhost port=5432 dbname=info_21 user=yonnarge password=1");
           if (PQstatus(pgConnection) != CONNECTION_OK) {
